@@ -1,0 +1,40 @@
+.card{
+    min-width: 300px;
+    max-width: 300px;
+    width: 300px;
+    border: 1px solid rgb(190, 184, 184);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 0 0 4px;
+}
+.maincontainer{
+    border: 2px solid rgb(215, 207, 207);
+    padding: 3px;
+    margin: 3px;
+    border-radius: 6px;
+}
+.topsection{
+    height: 50px;
+    margin: 5px 0 0 0;
+}
+.strong{
+    float: right;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(181, 105, 105);
+    font-size: 26px;
+}
+.link{
+    float: left;
+    color: rgb(87, 194, 194);
+    font-size: 22px;
+    text-decoration: none;
+}
+.cardlist{
+    display: flex;
+    overflow: auto;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
